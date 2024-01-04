@@ -46,9 +46,9 @@ export default function TextForm (props)
         <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor: props.mode==='dark'?'#343a40':'white', color: props.mode==='light'?'black':'white'}}  id="exampleFormControlTextarea1" rows="8"></textarea>
       </div>  
        <button className='btn btn-primary' onClick={handleUpClick}>Convert to Uppercase</button>
-       <button className='btn btn-primary m-4' onClick={handleLoClick}>Convert to Lowercase</button>
-       <button className='btn btn-primary m-4' onClick={handleClear}>Clear</button>
-       <button className='btn btn-primary m-4' onClick={handleCopy}>Copy</button>
+       <button className='btn btn-primary mx-1 my-1' onClick={handleLoClick}>Convert to Lowercase</button>
+       <button className='btn btn-primary mx-1 my-1' onClick={handleClear}>Clear</button>
+       <button className='btn btn-primary mx-1 my-1' onClick={handleCopy}>Copy</button>
     </div>
     <div className='container my-3' style={{color: props.mode==='dark'?'white':'#042743'}}>
         <h1>Your Text Summary</h1>
